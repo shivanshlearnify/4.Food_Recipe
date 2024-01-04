@@ -1,0 +1,60 @@
+.cusineItemContainer{
+    width: 75vw;
+    margin: auto;
+}
+.cusineTitle{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px 0;
+}
+.cardWrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 290px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.card img{
+    width: 90%;
+    height: 55%;
+    border-radius: 5px;
+    margin: auto;
+}
+.cusineItemTitle{
+    font-size: 25px;
+    font-weight: 800;
+    width: 90%;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cusineItemNutrition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 16px;
+}
+button{
+    background-color: #65B741;
+    border: 1px solid #65B741;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}

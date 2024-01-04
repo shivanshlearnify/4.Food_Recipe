@@ -1,0 +1,33 @@
+.maincontainer {
+  width: 100vw;
+  height: 700px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  z-index: -5;
+}
+
+.heroBannercontext {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  font-size: 90px;
+  font-weight: 700;
+}
+.subTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
