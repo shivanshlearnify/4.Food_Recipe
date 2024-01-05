@@ -17,6 +17,7 @@
   align-items: center;
   font-size: 23px;
   font-weight: bolder;
+  cursor: pointer;
 }
 .right {
   display: flex;

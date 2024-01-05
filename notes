@@ -3,3 +3,7 @@
 2. homepage - where we have some randon recipe cards 
 3. when we click on that cards we get details of that recipe how to make them
 4. we have search inputbox where we can get recipe by there ingredients
+
+for recipe page
+
+1.https://api.spoonacular.com/recipes/4632/information?includeNutrition=false&apiKey=6180a9c6246e4373a5b9fc607d8b9757 --> complete information
