@@ -13,10 +13,10 @@ export const getFoodData = async () => {
     throw error;
   }
 };
-export const getRecipeInformation = async (id) => {
+export const getRecipeInformation = async (id, param) => {
   try {
     const response = await fetch(
-       `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&apiKey=${API}`
+       `https://api.spoonacular.com/recipes/${id}/${param}?includeNutrition=false&apiKey=${API}`
     );
     const data = await response.json();
     return data;
